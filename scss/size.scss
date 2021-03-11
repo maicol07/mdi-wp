@@ -1,0 +1,12 @@
+/* makes the font 33% larger relative to the icon container */
+.mdi-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+@for $i from 2 to 10 {
+  .mdi-#{$i}x {
+    font-size: #{$i}em;
+  }
+}

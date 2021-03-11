@@ -2,11 +2,11 @@
  * Material Design Icons admin styles
  *
  * @package   Material Design Icons
- * @author    Brad Williams
- * @link      https://github.com/braginteractive/Material-Design-Icons-WordPress-Plugin
+ * @author    Maicol Battistini
+ * @link      https://github.com/maicol07/mdi-wp
  */
 
-/**	
+/**
  * TinyMCE
  */
 
@@ -22,9 +22,9 @@
 
 /* Override TinyMCE icon font family */
 .mdi {
-	font-family: MaterialDesignIcons !important;
+	font-family: MaterialDesignIcons, sans-serif !important;
 }
 
 i.mce-i-mdi-icon {
-	background-image: url('mdi-icon.png');
+	background-image: url('../images/mdi-icon.png');
 }

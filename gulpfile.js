@@ -17,9 +17,11 @@ function clean() {
  * Pack the plugin
  */
 function pack() {
+	gulp.src( 'node_modules/@mdi/font/css/materialdesignicons.min.css' ).pipe( 'css' );
 	return gulp.src( [
 		'**/*',
 		'!node_modules/**/*',
+		'!scss/**/*',
 		'!test/**/*',
 		'!vendor/**/*',
 		'!*',
