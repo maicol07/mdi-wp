@@ -1,0 +1,17 @@
+{
+  "name": "mdi-wp",
+  "version": "1.0.0",
+  "license": "gpl-3.0",
+  "dependencies": {
+    "@mdi/font": "^5"
+  },
+  "devDependencies": {
+    "@wordpress/eslint-plugin": "^8",
+    "del": "^6",
+    "eslint": "^7",
+    "eslint-plugin-import": "^2",
+    "eslint-plugin-jquery": "^1",
+    "gulp": "^4",
+    "gulp-vinyl-zip": "^2"
+  }
+}
